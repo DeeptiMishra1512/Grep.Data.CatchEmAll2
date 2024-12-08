@@ -1,6 +1,20 @@
 # Part 1
 ### a)
-
+grep "beed" forest/filescan_00.1  > captured/beedrill.txt
+grep "blas" forest/filescan_00.1 > captured/blastoise.txt
+grep "bulb" forest/filescan_00.1 > captured/bulbasaur.txt
+grep "butt" forest/filescan_00.1 > captured/butterfree.txt
+grep "mander" forest/filescan_00.2  > captured/charmander.txt
+grep "meleon" forest/filescan_00.2  > captured/charmeleon.txt
+grep "izard" forest/filescan_00.2 > captured/charlizard.txt
+grep "jigg" forest/filescan_00.3  > captured/jigglypuff.txt
+grep "meow" forest/filescan_00.3  > captured/meowth.txt
+grep "pika" forest/filescan_00.3  > captured/pikachu.txt
+grep "ivys" forest/filescan_00.3  > captured/ivysaur.txt
+grep "squi" forest/filescan_00.4 > Captured/Squirtle.txt
+grep "venu" forest/filescan_00.4  > captured/venusaur.txt
+grep "psyd" forest/filescan_00.4  > captured/psyduck.txt
+grep "wart" forest/filescan_00.4  > captured/wartortle.txt
 
 
 
@@ -13,26 +27,28 @@
 
 
 
-
-
-
-
-
-
-
-
-
 # Part 2
 ### a)
+find .//. ! -name . | grep -c //
 
-
-
+16
 
 
 
 ### b)
 
+ wc -l *.txt | sort -r
 
+      40 pikachu.txt
+      40 charlizard.txt
+      40 beedrill.txt
+
+      38 butterfree.txt
+      38 blastoise.txt
+
+      37 wartortle.txt
+      37 psyduck.txt
+      37 charmeleon.txt
 
 
 
